@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp" />
+    <ClCompile Include="miscUtils.cpp" />
+    <ClCompile Include="SimdMaskDemo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h" />
+    <ClInclude Include="SimdMask\SimdMask.hpp" />
+    <ClInclude Include="SimdMask\SimdMaskTraits.hpp" />
+    <ClInclude Include="miscUtils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="NewFilter1">
+      <UniqueIdentifier>{e15e6a99-8d3e-441d-b8ef-ff02fc492a1a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
